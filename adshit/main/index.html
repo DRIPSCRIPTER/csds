@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C12DEV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>no ads choose</h1>
+        <div class="captcha-container">
+            <input type="checkbox" id="captcha-check" />
+            <label for="captcha-check">I am not a robot</label>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skins/Scripts</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody id="script-table">
+                <tr>
+                    <td>Script 1</td>
+                    <td><button data-file="upload/script1.zip">Download</button></td>
+                </tr>
+                <tr>
+                    <td>Script 2</td>
+                    <td><button data-file="upload/script2.zip">Download</button></td>
+                </tr>
+                <tr>
+                    <td>Script 3</td>
+                    <td><button data-file="upload/script3.zip">Download</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="error-message" class="hidden">Please verify the CAPTCHA to proceed.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
